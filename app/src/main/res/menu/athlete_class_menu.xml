@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/athlete_view_class_workouts"
+        android:title="View Workouts"
+        android:icon="@drawable/ic_featured_play_list_black_24dp"/>
+    <item
+        android:id="@+id/athlete_view_class_leaderboard"
+        android:title="Leaderboard"
+        android:icon="@drawable/ic_baseline_format_list_numbered_24"/>
+    <item
+        android:id="@+id/remove_class"
+        android:title="Unenroll"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+</menu>

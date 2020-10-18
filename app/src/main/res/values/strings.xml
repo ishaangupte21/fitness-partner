@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FitnessPartner</string>
+    <string name="navigation_bar_open">Open navigation drawer</string>
+    <string name="navigation_bar_close">Close navigation drawer</string>
+</resources>

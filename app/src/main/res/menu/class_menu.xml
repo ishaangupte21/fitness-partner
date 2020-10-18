@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="View Class" android:id="@+id/view_class" android:icon="@drawable/ic_library_books_black_24dp"/>
+    <item android:id="@+id/view_workouts" android:title="View Workouts" android:icon="@drawable/ic_featured_play_list_black_24dp"/>
+    <item android:title="Add Workout" android:id="@+id/add_workout" android:icon="@drawable/ic_add_black_24dp"/>
+    <item android:title="Leaderboard" android:id="@+id/view_leaderboard" android:icon="@drawable/ic_baseline_format_list_numbered_24"/>
+    <item android:title="Invite" android:id="@+id/add_athlete" android:icon="@drawable/ic_baseline_person_add_24"/>
+
+</menu>

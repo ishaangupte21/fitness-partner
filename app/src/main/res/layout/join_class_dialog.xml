@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Class Code"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="15dp"
+            android:id="@+id/class_code_editText"
+            android:fontFamily="@font/manrope_regular"/>
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:text="Join"-->
+<!--        android:fontFamily="@font/manrope_medium"-->
+<!--        android:id="@+id/join_class_btn"/>-->
+
+</LinearLayout>

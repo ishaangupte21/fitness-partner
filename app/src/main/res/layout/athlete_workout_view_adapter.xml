@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/athlete_workout_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/manrope_regular"
+            android:padding="10dp"
+            android:text="Workout Name"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/athlete_workout_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:text="Workout Date"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
